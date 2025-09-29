@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Manejo de Datos en JavaScript</title>
+  <script src="js/scripts.js" defer></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #f9f9f9;
+    }
+    h1 {
+      color: #333;
+    }
+    form {
+      margin-bottom: 15px;
+    }
+    input[type="text"] {
+      padding: 5px;
+      font-size: 14px;
+    }
+    button {
+      padding: 6px 12px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+    #mensaje {
+      color: red;
+      margin-top: 10px;
+    }
+    #contenedor {
+      margin-top: 20px;
+      padding: 10px;
+      background: white;
+      border: 1px solid #ccc;
+      min-height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Manejo de Datos en JavaScript</h1>
+
+  <form id="formulario">
+    <input type="text" id="entrada" placeholder="Escribe un elemento">
+    <button type="submit">Añadir</button>
+  </form>
+
+  <div id="mensaje"></div>
+
+  <button id="btnShift">Eliminar primero</button>
+  <button id="btnPop">Eliminar último</button>
+  <button id="btnSort">Ordenar alfabéticamente</button>
+
+  <div id="contenedor"></div>
+</body>
+</html>
