@@ -35,7 +35,7 @@ formulario.addEventListener("submit", function (e) {
   entrada.value = "";
   mensaje.textContent = "";
   mostrarLista();
-});
+}); 
 
 btnShift.addEventListener("click", function () {
   if (lista.length > 0) {
